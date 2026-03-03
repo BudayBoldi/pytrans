@@ -1,7 +1,8 @@
+import sys
 import asyncio
 from googletrans import Translator, constants
 
-file = "sample.srt"
+file = sys.argv[1]
 subtitle = 1
 
 async def GTransText(sub):
